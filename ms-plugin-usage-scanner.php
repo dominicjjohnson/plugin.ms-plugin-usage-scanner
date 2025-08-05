@@ -1,10 +1,13 @@
 <?php
-/**
- * Plugin Name: Plugin Usage Scanner
- * Description: Scans a WordPress multisite network for plugins that are not active anywhere.
- * Version: 1.0
- * Author: Miramedia
- */
+/*
+Plugin Name: Multisite Plugin Usage Scanner
+Description: Scans a multisite network to identify unused plugins.
+Version: 1.0
+Author: Dominic Johnson / Miramedia
+License: GPL2
+Text Domain: ms-plugin-usage-scanner
+*/
+
 
 if ( ! defined( 'ABSPATH' ) || ! is_multisite() ) {
 	return;
