@@ -1,55 +1,32 @@
-=== Multisite Plugin Usage Scanner ===
-Contributors: dominicjjohnson
-Tags: multisite, plugin management, admin tools, diagnostics
-Requires at least: 5.0
-Tested up to: 6.5
-Requires PHP: 7.4
-Stable tag: trunk
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# Multisite Plugin Usage Scanner
 
 Scan your WordPress multisite network to identify which plugins are actively used across sites. Helps admins safely clean up unused plugins.
 
-== Description ==
+## Features
 
-Multisite Plugin Usage Scanner helps WordPress network administrators audit plugin usage across all sites in a multisite installation.
+- List active plugins per site
+- Identify unused plugins across the network
+- Export usage data (CSV/JSON)
+- Lightweight and admin-friendly
 
-It provides a simple admin interface to:
-* List all active plugins per site
-* Identify unused plugins across the network
-* Export usage data for reporting or cleanup
+## Requirements
 
-This tool is especially useful for large networks with legacy plugins or unclear usage patterns.
+- WordPress 5.0+
+- PHP 7.4+
+- Must be installed on a multisite network
 
-== Installation ==
+## Installation
 
-1. Upload the plugin folder to `/wp-content/plugins/`
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Navigate to **Network Admin → Plugins → Usage Scanner** to begin scanning
+1. Upload the plugin to `/wp-content/plugins/`
+2. Activate via **Network Admin → Plugins**
+3. Go to **Network Admin → Plugins → Usage Scanner** to begin scanning
 
-== Frequently Asked Questions ==
+## License
 
-= Does this plugin work on single-site installs? =
-No. It is designed specifically for WordPress multisite networks.
+GPLv2 or later — see `LICENSE.txt` for details.
 
-= Will it deactivate unused plugins? =
-No. It only reports usage—it’s up to the admin to take action.
+## Author
 
-== Screenshots ==
-
-1. Admin interface showing plugin usage across sites
-2. Export options for CSV or JSON
-
-== Changelog ==
-
-= 1.0 =
-* Initial release
-* Scans plugin usage across multisite
-* Displays active plugins per site
-* Export functionality added
-
-== Upgrade Notice ==
-
-= 1.0 =
-First release. No upgrade steps required.
-
+Dominic Johnson  
+[miramedia.co.uk](https://miramedia.co.uk)  
+[GitHub Repo](https://github.com/dominicjjohnson/plugin.ms-plugin-usage-scanner)
