@@ -1,12 +1,18 @@
 <?php
-/*
-Plugin Name: Multisite Plugin Usage Scanner
-Description: Scans a multisite network to identify unused plugins.
-Version: 1.0
-Author: Dominic Johnson / Miramedia
-License: GPL2
-Text Domain: ms-plugin-usage-scanner
-*/
+<?php
+/**
+ * Plugin Name: Multisite Plugin Usage Scanner
+ * Plugin URI: https://github.com/dominicjjohnson/plugin.ms-plugin-usage-scanner
+ * Description: Scan your WordPress multisite network to identify which plugins are actively used across sites.
+ * Version: 1.0
+ * Author: Dominic Johnson / Miramedia
+ * Author URI: https://www.miramedia.co.uk
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: ms-plugin-usage-scanner
+ * Domain Path: /languages
+ */
+
 
 
 if ( ! defined( 'ABSPATH' ) || ! is_multisite() ) {
